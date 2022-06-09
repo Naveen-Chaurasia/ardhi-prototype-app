@@ -1,0 +1,125 @@
+
+.app {
+    /* font-family: sans-serif;
+    display:grid; */
+    /* align-items: center; */
+    /* justify-content:left;
+    flex-direction: column; */
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #001567;
+    
+}
+
+
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    max-width:250px;
+    max-height: 250px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color:#fff;
+    margin: auto;
+    background-color: rgb(1, 1, 94);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  .logo {
+    /* justify-content: center;
+    flex-direction: column;
+    image-rendering: auto; */
+    /* margin:0px;
+    padding:0px; */
+    position:relative;
+    /* background-image: ".\logo.png"; */
+    /* height: 40vmin;
+    pointer-events: none; */
+  }.page1_image
+  {
+      
+      /* background-color: #001567; */
+    max-width :fit-content;
+    max-height:fit-content;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    padding-left: 0;
+  }
+
+  .page1{
+    max-height: 10px;
+    background-color: #001567;
+  }
+
+  .page1_image:hover {
+    /* background-color: #001567; */
+    border:5px dotted blue;
+}
+
+.footer{
+    padding-left: 10px;
+    text-align: right;
+    /* background-color: rgb(1, 1, 94); */
+    margin-top: 3rem;
+    padding: .15rem;
+    /* background-color: rgb(235, 195, 64); */
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+ 
