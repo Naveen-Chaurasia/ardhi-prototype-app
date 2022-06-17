@@ -56,9 +56,9 @@ console.log("*********************");
        
     <div className="page1_image" id="pi"> 
                             
-      <img  src="cafe1.png" height="500px" width="900px"  padding="10px"  onClick={() => imageClick()}/>
+      <img  src="cafe1.png" height="500px" width="900px"  padding="10px" border-radius="10px"  onClick={() => imageClick()}/>
       <table className="Table1" >
-      <caption >GRPF Values</caption>
+      <caption >LCA-Panel Values</caption>
         <tr>
           <th>Material</th>
           <th>Property</th>

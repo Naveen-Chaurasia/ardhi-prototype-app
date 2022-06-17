@@ -132,23 +132,26 @@ input[type="submit"]:hover {
 }
 
 table {
-  
+background-color:rgb(0, 208, 255);
   /* max-width :fit-content; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
   max-height:fit-content;
   border: 2px solid rgb(18, 0, 58);
+  border-radius: 5%;
   width: 50px;
   height: 200px; 
-  color:white;
+  color:rgb(0, 0, 0);
    margin-left: 6%;  
    /* margin-top:7%; */
    margin-bottom:6%;
    margin-top: 6%;
-
   
  
 }
   
 tr,th {
+  border-radius: 7px;
+
   border-bottom: 1px solid white;
 }
   
@@ -157,6 +160,8 @@ td {
   text-align: left;
   text-align: center;
   border-bottom: 1px solid white;
+  border-radius: 10px;
+
 }
 tr:hover {background-color: rgb(11, 198, 227);}
 
@@ -165,6 +170,8 @@ caption {
   display: table-caption;
   text-align: center;
   font-size: large;
+  background-color: rgb(0, 255, 225);
+  border-style: double;
 }
 .button {
   background-color: #030050; /* Green */
