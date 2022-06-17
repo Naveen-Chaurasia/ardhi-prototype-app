@@ -85,9 +85,7 @@ function App() {
   );
 
   return (
-    
-    
-    
+    <div>
     <div className="app">
       <div className="logo" >
       <img src="logo.png" height="100px" width="100px" />
@@ -98,8 +96,11 @@ function App() {
        
         {isSubmitted ? navigate('/Page1')  : renderForm}
 
-        <Footer/>
+      
       </div>
+      <Footer/>
+     </div>
+     
      </div>
   );
 }

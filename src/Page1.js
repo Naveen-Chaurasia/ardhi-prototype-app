@@ -8,7 +8,6 @@ import "./style.css";
 
 function Page1() {
     const [isClicked, setIsClicked] = useState(false);
-    
   // React States
   const navigate= useNavigate();
 
@@ -35,8 +34,8 @@ function Page1() {
  {
     setIsClicked(true);
     console.log("^^^^^^^^^^^^^^^^^");
-    window.location.href = "http://localhost:3000/";
-  // window.location.href = "https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.105062592.230755171.1655092750-1401971628.1655092750";
+   // window.location.href = "http://localhost:3000/";
+   window.location.href = "https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.105062592.230755171.1655092750-1401971628.1655092750";
     console.log("^^^^^^^^^^^^^^^^^");
   let x=  document.getElementsByClassName("MuiButton-label")[1].click();
   
@@ -106,6 +105,7 @@ console.log("*********************");
       <button class="button button1" onClick={() => imageClick()}>View Chart</button>
       <div4/>
       </div4>
+      
     </div>
     
     {/* {isClicked? navigate('/Page2'):renderForm} */}
