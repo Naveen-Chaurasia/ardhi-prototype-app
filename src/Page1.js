@@ -34,8 +34,8 @@ function Page1() {
  {
     setIsClicked(true);
     console.log("^^^^^^^^^^^^^^^^^");
-   // window.location.href = "http://localhost:3000/";
-   window.location.href = "https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.105062592.230755171.1655092750-1401971628.1655092750";
+   window.location.href = "http://localhost:3000/";
+  //  window.location.href = "https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.105062592.230755171.1655092750-1401971628.1655092750";
     console.log("^^^^^^^^^^^^^^^^^");
   let x=  document.getElementsByClassName("MuiButton-label")[1].click();
   
@@ -57,6 +57,7 @@ console.log("*********************");
     <div className="page1_image" id="pi"> 
                             
       <img  src="cafe1.png" height="500px" width="900px"  padding="10px" border-radius="10px"  onClick={() => imageClick()}/>
+      <div className="table_button">
       <table className="Table1" >
       <caption >LCA-Panel Values</caption>
         <tr>
@@ -89,11 +90,11 @@ console.log("*********************");
           <td>ReuseByRecycle%</td>
           <td>30%</td>
         </tr>
-        <tr>
+        {/* <tr>
           <td></td>
           <td>Location</td>
           <td>Manama</td>
-        </tr>
+        </tr> */}
         {/* <tr>
           <td onClick={() => imageClick1()}><button class="button button1">View Graph</button></td>
           <td></td>
@@ -101,10 +102,13 @@ console.log("*********************");
         </tr> */}
       </table>  
       <div4 className="buttn">
-      <button class="button button1" onClick={() => imageClick1()}>View Graph</button>  
-      <button class="button button1" onClick={() => imageClick()}>View Chart</button>
+      <button class="button1" onClick={() => imageClick1()}>View LCA Graph</button>  
+      <button class="button2" onClick={() => imageClick()}>View LCA Charts</button>
+     
       <div4/>
+      
       </div4>
+      </div>
       
     </div>
     
