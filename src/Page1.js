@@ -59,7 +59,7 @@ console.log("*********************");
       <img  src="cafe1.png" height="500px" width="900px"  padding="10px" border-radius="10px"  onClick={() => imageClick()}/>
       <div className="table_button">
       <table className="Table1" >
-      <caption >LCA-Panel Values</caption>
+      <caption >Ardhi LCA(1 Panel=160Kg)</caption>
         <tr>
           <th>Material</th>
           <th>Property</th>
