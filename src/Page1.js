@@ -68,27 +68,27 @@ console.log("*********************");
         <tr>
           <td>GFRP</td>
           <td>Energy</td>
-          <td>5.14</td>
+          <td>822.4kg CO₂ Emission</td>
         </tr>
         <tr>
           <td></td>
           <td>Toxicity</td>
-          <td>0.59ppmv</td>
+          <td>94.4 DCB (Dichlorobenzene)</td>
         </tr>
         <tr>
           <td></td>
           <td>CarbonEmission</td>
-          <td>8.3ppmv</td>
+          <td>633.6kg CO₂ Emission</td>
         </tr>
         <tr>
           <td></td>
           <td>Water</td>
-          <td>80Kg</td>
+          <td>12800Kg CO₂ Emission</td>
         </tr>
         <tr>
           <td></td>
           <td>ReuseByRecycle%</td>
-          <td>30%</td>
+          <td>30.0 %</td>
         </tr>
         {/* <tr>
           <td></td>
