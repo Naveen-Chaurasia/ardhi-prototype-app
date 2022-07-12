@@ -16,7 +16,7 @@ function Page1() {
 //   }
   const imageClick1 = () => 
  {
-  window.location.href = "http://localhost:8110/visualization";
+  window.location.href = "http://localhost:8110/visualization?username=admin&password=admin";
      // navigate('/Page2')
 //     setIsClicked(true);
 //     console.log("^^^^^^^^^^^^^^^^^");
