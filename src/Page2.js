@@ -36,9 +36,9 @@ function Page2() {
       <div className="page1_image">
     <div className="iframe">
     <Iframe
-     url="https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.172551520.230755171.1655092750-1401971628.1655092750"
+    // url="https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.172551520.230755171.1655092750-1401971628.1655092750"
    // url="https://browser.neo4j.io/?connectURL=neo4j%2Bs%3A%2F%2Fneo4j%406799f560.databases.neo4j.io%2F&_ga=2.105062592.230755171.1655092750-1401971628.1655092750"
-    
+    url="http://localhost:8110/visualization"
     width="1300px"
             height="600px"
             id="myId"
