@@ -58,8 +58,21 @@ console.log("*********************");
         <img src="logo.png" height="100px" width="100px" />
        
     <div className="page1_image" id="pi"> 
-                            
-      <img  src="cafe1.png" height="500px" width="500px"  padding="10px" border-radius="10px"  onClick={() => imageClick()}/>
+                            <div5 className="imageandbutton">
+                              <div6 className="imagecafe">
+      <img  src="cafe1.png" height="400px" width="580px"  padding="5px" border-radius="10px"  onClick={() => imageClick()}/>
+      </div6>
+      <div4 className="buttn">
+        
+        
+        <button class="button1" onClick={() => imageClick1()}>View LCA Graph</button>  
+        <button class="button2" onClick={() => imageClick()}>View LCA Charts</button>
+       
+        <div4/>
+        
+        
+        </div4>
+                           </div5>
       <div className="table_button">
       <table className="Table1" >
       <caption >Ardhi LCA(1 Panel=160Kg)</caption>
@@ -206,7 +219,7 @@ console.log("*********************");
       </table>  
       
     </div>
-    
+   
     {/* {isClicked? navigate('/Page2'):renderForm} */}
     {/* <div>  <input type="submit"  name="view Dashboard"/></div> */}
     <Footer/>

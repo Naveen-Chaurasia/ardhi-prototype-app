@@ -100,6 +100,7 @@ input[type="submit"]:hover {
   /* margin: auto;
   position: absolute;
   padding-left: 0; */
+  margin-bottom: 5%;
   margin-left: 2%;
   flex: 1;
   /* border: 1px solid black; */
@@ -191,8 +192,8 @@ caption {
 }
 .buttn
 {
- margin-top: 3%;
-  
+ margin-top: 0%;
+ padding-top: 14%;
   margin-left:14%;
 
 }
@@ -231,4 +232,8 @@ background-color: #030050;
 .table_button
 {
   margin-left: 3%;
+}
+.imagecafe
+{
+  margin-bottom: 0%;
 }
