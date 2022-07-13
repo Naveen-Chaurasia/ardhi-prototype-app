@@ -132,7 +132,7 @@ console.log("*********************");
       
       </div>
       <table className="Table1" >
-      <caption >Ardhi LCA(1 Panel=160Kg)</caption>
+      <caption >Ardhi LCA(Carbon Fiber)</caption>
         <tr>
           {/* <th>Material</th> */}
           <th>Property</th>
@@ -141,27 +141,27 @@ console.log("*********************");
         <tr>
           {/* <td>GFRP</td> */}
           <td>Energy</td>
-          <td>5.14kg CO₂ Emission per kg of GFRP</td>
+          <td>***kg CO₂ Emission per kg of GFRP</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>Toxicity</td>
-          <td>0.59 DCB eq.</td>
+          <td>*** DCB eq.</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>CarbonEmission</td>
-          <td>3.96kg CO₂ Emission per kg of GFRP</td>
+          <td>***kg CO₂ Emission per kg of GFRP</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>Water</td>
-          <td>80kg</td>
+          <td>**kg</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>ReuseByRecycle%</td>
-          <td>30.0%</td>
+          <td>***%</td>
         </tr>
         {/* <tr>
           <td></td>
@@ -175,7 +175,7 @@ console.log("*********************");
         </tr> */}
       </table>  
       <table className="Table1" >
-      <caption >Ardhi LCA(1 Panel=160Kg)</caption>
+      <caption >Ardhi LCA(Steel)</caption>
         <tr>
           {/* <th>Material</th> */}
           <th>Property</th>
@@ -184,27 +184,27 @@ console.log("*********************");
         <tr>
           {/* <td>GFRP</td> */}
           <td>Energy</td>
-          <td>5.14kg CO₂ Emission per kg of GFRP</td>
+          <td>****kg CO₂ Emission per kg of GFRP</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>Toxicity</td>
-          <td>0.59 DCB eq.</td>
+          <td>**** DCB eq.</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>CarbonEmission</td>
-          <td>3.96kg CO₂ Emission per kg of GFRP</td>
+          <td>****kg CO₂ Emission per kg of GFRP</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>Water</td>
-          <td>80kg</td>
+          <td>**kg</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>ReuseByRecycle%</td>
-          <td>30.0%</td>
+          <td>****%</td>
         </tr>
         {/* <tr>
           <td></td>
