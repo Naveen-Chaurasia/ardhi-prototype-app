@@ -7,7 +7,7 @@
   flex-direction: column; */
  
   gap: 20px;
-  height: 100vh;
+  height: 170vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-color: #001567;
   
@@ -102,11 +102,19 @@ input[type="submit"]:hover {
   padding-left: 0; */
   margin-bottom: 5%;
   margin-right: 2%;
-  margin-left: 2%;
+  margin-left: 23%;
   flex: 1;
   /* border: 1px solid black; */
-  display: flex;
+  /* display: flex; */
   align-items: center;
+}
+
+.tables
+{
+  flex: 1;
+  display:flex;
+  /* align-items: center; */
+
 }
 
 .page1{
@@ -143,7 +151,7 @@ background-color:rgb(0, 208, 255);
   width: 50px;
   height: 200px; 
   color:rgb(0, 0, 0);
-   margin-left: 2%;  
+   /* margin-left: 2%;   */
    margin-bottom:7%;
    margin-top: 6%;
    border-bottom: 1px solid #ddd;

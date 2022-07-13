@@ -60,9 +60,9 @@ console.log("*********************");
     <div className="page1_image" id="pi"> 
                             <div5 className="imageandbutton">
                               <div6 className="imagecafe">
-      <img  src="cafe1.png" height="400px" width="580px"  padding="5px" border-radius="10px"  onClick={() => imageClick()}/>
+      <img  src="cafe1.png" height="400px" width="800px" margin="5px"  padding="5px" border-radius="10px"  onClick={() => imageClick()}/>
       </div6>
-      <div4 className="buttn">
+      {/* <div4 className="buttn">
         
         
         <button class="button1" onClick={() => imageClick1()}>View LCA Graph</button>  
@@ -71,9 +71,12 @@ console.log("*********************");
         <div4/>
         
         
-        </div4>
+        </div4> */}
                            </div5>
-      <div className="table_button">
+
+<div7 className="tables">
+
+      {/* <div className="table_button"> */}
       <table className="Table1" >
       <caption >Ardhi LCA(1 Panel=160Kg)</caption>
         <tr>
@@ -130,7 +133,7 @@ console.log("*********************");
       
       </div4> */}
       
-      </div>
+      {/* </div> */}
       <table className="Table1" >
       <caption >Ardhi LCA(Carbon Fiber)</caption>
         <tr>
@@ -217,6 +220,7 @@ console.log("*********************");
           <td onClick={() => imageClick()}><button class="button button1">View Chart</button></td>
         </tr> */}
       </table>  
+      </div7>
       
     </div>
    
