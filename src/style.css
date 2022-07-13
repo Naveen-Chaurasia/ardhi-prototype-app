@@ -130,6 +130,7 @@ input[type="submit"]:hover {
 .footer{
   padding-left: 10px;
   text-align: right;
+  display: block;
   /* background-color: rgb(1, 1, 94); */
   margin-top: 3rem;
   padding: .15rem;
@@ -245,4 +246,8 @@ background-color: #030050;
 .imagecafe
 {
   margin-bottom: 0%;
+}
+.logo1
+{
+  display:block;
 }

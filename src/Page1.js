@@ -55,7 +55,9 @@ console.log("*********************");
   
   return (
     <div className="app">
+      <div8 className="logo1"> 
         <img src="logo.png" height="100px" width="100px" />
+        </div8>
        
     <div className="page1_image" id="pi"> 
                             <div5 className="imageandbutton">
