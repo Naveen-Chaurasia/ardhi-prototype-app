@@ -58,38 +58,51 @@ console.log("*********************");
         <img src="logo.png" height="100px" width="100px" />
        
     <div className="page1_image" id="pi"> 
-                            
-      <img  src="cafe1.png" height="500px" width="900px"  padding="10px" border-radius="10px"  onClick={() => imageClick()}/>
+                            <div5 className="imageandbutton">
+                              <div6 className="imagecafe">
+      <img  src="cafe1.png" height="400px" width="580px"  padding="5px" border-radius="10px"  onClick={() => imageClick()}/>
+      </div6>
+      <div4 className="buttn">
+        
+        
+        <button class="button1" onClick={() => imageClick1()}>View LCA Graph</button>  
+        <button class="button2" onClick={() => imageClick()}>View LCA Charts</button>
+       
+        <div4/>
+        
+        
+        </div4>
+                           </div5>
       <div className="table_button">
       <table className="Table1" >
       <caption >Ardhi LCA(1 Panel=160Kg)</caption>
         <tr>
-          <th>Material</th>
+          {/* <th>Material</th> */}
           <th>Property</th>
           <th>Value</th>
         </tr>
         <tr>
-          <td>GFRP</td>
+          {/* <td>GFRP</td> */}
           <td>Energy</td>
           <td>5.14kg CO₂ Emission per kg of GFRP</td>
         </tr>
         <tr>
-          <td></td>
+          {/* <td></td> */}
           <td>Toxicity</td>
           <td>0.59 DCB eq.</td>
         </tr>
         <tr>
-          <td></td>
+          {/* <td></td> */}
           <td>CarbonEmission</td>
           <td>3.96kg CO₂ Emission per kg of GFRP</td>
         </tr>
         <tr>
-          <td></td>
+          {/* <td></td> */}
           <td>Water</td>
           <td>80kg</td>
         </tr>
         <tr>
-          <td></td>
+          {/* <td></td> */}
           <td>ReuseByRecycle%</td>
           <td>30.0%</td>
         </tr>
@@ -104,17 +117,109 @@ console.log("*********************");
           <td onClick={() => imageClick()}><button class="button button1">View Chart</button></td>
         </tr> */}
       </table>  
-      <div4 className="buttn">
+      
+      
+      {/* <div4 className="buttn">
+        
+        
       <button class="button1" onClick={() => imageClick1()}>View LCA Graph</button>  
       <button class="button2" onClick={() => imageClick()}>View LCA Charts</button>
      
       <div4/>
       
-      </div4>
+      
+      </div4> */}
+      
       </div>
+      <table className="Table1" >
+      <caption >Ardhi LCA(Carbon Fiber)</caption>
+        <tr>
+          {/* <th>Material</th> */}
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          {/* <td>GFRP</td> */}
+          <td>Energy</td>
+          <td>***kg CO₂ Emission per kg of GFRP</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>Toxicity</td>
+          <td>*** DCB eq.</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>CarbonEmission</td>
+          <td>***kg CO₂ Emission per kg of GFRP</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>Water</td>
+          <td>**kg</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>ReuseByRecycle%</td>
+          <td>***%</td>
+        </tr>
+        {/* <tr>
+          <td></td>
+          <td>Location</td>
+          <td>Manama</td>
+        </tr> */}
+        {/* <tr>
+          <td onClick={() => imageClick1()}><button class="button button1">View Graph</button></td>
+          <td></td>
+          <td onClick={() => imageClick()}><button class="button button1">View Chart</button></td>
+        </tr> */}
+      </table>  
+      <table className="Table1" >
+      <caption >Ardhi LCA(Steel)</caption>
+        <tr>
+          {/* <th>Material</th> */}
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          {/* <td>GFRP</td> */}
+          <td>Energy</td>
+          <td>****kg CO₂ Emission per kg of GFRP</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>Toxicity</td>
+          <td>**** DCB eq.</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>CarbonEmission</td>
+          <td>****kg CO₂ Emission per kg of GFRP</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>Water</td>
+          <td>**kg</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>ReuseByRecycle%</td>
+          <td>****%</td>
+        </tr>
+        {/* <tr>
+          <td></td>
+          <td>Location</td>
+          <td>Manama</td>
+        </tr> */}
+        {/* <tr>
+          <td onClick={() => imageClick1()}><button class="button button1">View Graph</button></td>
+          <td></td>
+          <td onClick={() => imageClick()}><button class="button button1">View Chart</button></td>
+        </tr> */}
+      </table>  
       
     </div>
-    
+   
     {/* {isClicked? navigate('/Page2'):renderForm} */}
     {/* <div>  <input type="submit"  name="view Dashboard"/></div> */}
     <Footer/>
