@@ -19,7 +19,7 @@ function Page1() {
 
   useEffect(() => {
     axios.get(`http://localhost:8091/Level0`).then((response) => {
-      console.log(response.data);
+      console.log(response.data._embedded.Level0[0]);
       setAPIData(response.data);
     });
   }, []);
