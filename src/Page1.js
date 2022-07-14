@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 import {Link, Route, Router, useNavigate} from 'react-router-dom';
 import Footer from "./Footer";
 import "./style.css";
-
+import axios from "axios";
+import { useEffect } from "react";
 
 ////////////////to add neo4j api//////////
 
@@ -12,8 +13,16 @@ import "./style.css";
 
 function Page1() {
     const [isClicked, setIsClicked] = useState(false);
+    const [APIData, setAPIData] = useState([]);
   // React States
   const navigate= useNavigate();
+
+  useEffect(() => {
+    axios.get(`http://localhost:8091/Level0`).then((response) => {
+      console.log(response.data);
+      setAPIData(response.data);
+    });
+  }, []);
 
 //   function getElementByXpath(path) {
 //     return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
