@@ -142,7 +142,7 @@ console.log("*********************");
         </tr>
         <tr>
           {/* <td></td> */}
-          <td>Human Impact</td>
+          <td>Toxicity</td>
           <td>1.49 DCB eq.</td>
         </tr>
         <tr>
