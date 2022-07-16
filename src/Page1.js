@@ -8,9 +8,6 @@ import { useEffect } from "react";
 
 ////////////////to add neo4j api//////////
 
-
-
-
 function Page1() {
     const [isClicked, setIsClicked] = useState(false);
     const [APIData, setAPIData] = useState([]);
@@ -24,16 +21,12 @@ function Page1() {
     });
   }, []);
 
-//   function getElementByXpath(path) {
-//     return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-//   }
   const imageClick1 = () => 
  {
   window.location.href = "http://localhost:8110/visualization?username=admin&password=admin";
      // navigate('/Page2')
  //  window.location.href = "https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.105062592.230755171.1655092750-1401971628.1655092750";
 
-    
  }
 
  const imageClick = () => 
@@ -82,35 +75,33 @@ console.log("*********************");
       <table className="Table1" >
       <caption >Ardhi LCA(1 Panel=160Kg)</caption>
         <tr>
-          {/* <th>Material</th> */}
           <th>Property</th>
           <th>Value</th>
         </tr>
         <tr>
-          {/* <td>GFRP</td> */}
           <td>Energy</td>
-          {/* <td>5.14kg CO₂ Emission per kg of GFRP</td> */}
-          <td>APIData</td>
+          <td>5.14kg CO₂ Emission per kg of GFRP</td>
+          {/* <td>{APIData.energy}kg CO₂ Emission per kg of GFRP</td> */}
         </tr>
         <tr>
-          {/* <td></td> */}
           <td>Toxicity</td>
-          <td>0.59 DCB eq.</td>
+          <td>80 DCB eq.</td>
+          {/* <td>{APIData.water} DCB eq.</td> */}
         </tr>
         <tr>
-          {/* <td></td> */}
           <td>CarbonEmission</td>
+          {/* <td>{APIData.carbonEmission}kg CO₂ Emission per kg of GFRP</td> */}
           <td>3.96kg CO₂ Emission per kg of GFRP</td>
         </tr>
         <tr>
-          {/* <td></td> */}
           <td>Water</td>
-          <td>80kg</td>
+          {/* <td>{APIData.water}kg</td> */}
+          <td>80 kg</td>
         </tr>
         <tr>
-          {/* <td></td> */}
           <td>ReuseByRecycle%</td>
-          <td>30.0%</td>
+          {/* <td>{APIData.reuseByRecyclePercentage}%</td> */}
+          <td>80%</td>
         </tr>
         {/* <tr>
           <td></td>
@@ -147,27 +138,27 @@ console.log("*********************");
         <tr>
           {/* <td>GFRP</td> */}
           <td>Energy</td>
-          <td>***kg CO₂ Emission per kg of GFRP</td>
+          <td>0.8kg CO₂ Emission per kg of CFRP</td>
         </tr>
         <tr>
           {/* <td></td> */}
-          <td>Toxicity</td>
-          <td>*** DCB eq.</td>
+          <td>Human Impact</td>
+          <td>1.49 DCB eq.</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>CarbonEmission</td>
-          <td>***kg CO₂ Emission per kg of GFRP</td>
+          <td>48.085kg CO₂ Emission per kg of CFRP</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>Water</td>
-          <td>**kg</td>
+          <td>0.15M³</td>
         </tr>
         <tr>
           {/* <td></td> */}
           <td>ReuseByRecycle%</td>
-          <td>***%</td>
+          <td>0%</td>
         </tr>
         {/* <tr>
           <td></td>
