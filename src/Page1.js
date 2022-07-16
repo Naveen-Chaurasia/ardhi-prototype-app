@@ -153,7 +153,7 @@ console.log("*********************");
         <tr>
           {/* <td></td> */}
           <td>Water</td>
-          <td>0.15M³</td>
+          <td>150 Kg</td>
         </tr>
         <tr>
           {/* <td></td> */}
