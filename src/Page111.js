@@ -58,7 +58,7 @@ console.log("*********************");
     <div className="page1_image" id="pi"> 
                             <div5 className="imageandbutton">
                               <div6 className="imagecafe">
-      <img  src="cafe1.png" height="500px" width="800px"  padding="5px" border-radius="10px"  onClick={() => imageClick()}/>
+      <img  src="cafe1.png" height="400px" width="580px"  padding="5px" border-radius="10px"  onClick={() => imageClick()}/>
       </div6>
       <div4 className="buttn">
         
@@ -142,7 +142,7 @@ console.log("*********************");
         </tr>
         <tr>
           {/* <td></td> */}
-          <td>Human Impact</td>
+          <td>Toxicity</td>
           <td>1.49 DCB eq.</td>
         </tr>
         <tr>
@@ -158,7 +158,7 @@ console.log("*********************");
         <tr>
           {/* <td></td> */}
           <td>ReuseByRecycle%</td>
-          <td>N.a</td>
+          <td>0%</td>
         </tr>
         {/* <tr>
           <td></td>
@@ -171,7 +171,49 @@ console.log("*********************");
           <td onClick={() => imageClick()}><button class="button button1">View Chart</button></td>
         </tr> */}
       </table>  
-     
+      <table className="Table1" >
+      <caption >Ardhi LCA(Steel)</caption>
+        <tr>
+          {/* <th>Material</th> */}
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          {/* <td>GFRP</td> */}
+          <td>Energy</td>
+          <td>****kg CO₂ Emission per kg of GFRP</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>Toxicity</td>
+          <td>**** DCB eq.</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>CarbonEmission</td>
+          <td>****kg CO₂ Emission per kg of GFRP</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>Water</td>
+          <td>**kg</td>
+        </tr>
+        <tr>
+          {/* <td></td> */}
+          <td>ReuseByRecycle%</td>
+          <td>****%</td>
+        </tr>
+        {/* <tr>
+          <td></td>
+          <td>Location</td>
+          <td>Manama</td>
+        </tr> */}
+        {/* <tr>
+          <td onClick={() => imageClick1()}><button class="button button1">View Graph</button></td>
+          <td></td>
+          <td onClick={() => imageClick()}><button class="button button1">View Chart</button></td>
+        </tr> */}
+      </table>  
       
     </div>
    
