@@ -23,8 +23,8 @@ function Page1() {
 
   const imageClick1 = () => 
  {
-  window.location.href = "http://localhost:8110/visualization?username=admin&password=admin";
-     // navigate('/Page2')
+  //window.location.href = "http://localhost:8110/visualization?username=admin&password=admin";
+      navigate('/Page2')
  //  window.location.href = "https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.105062592.230755171.1655092750-1401971628.1655092750";
 
  }
