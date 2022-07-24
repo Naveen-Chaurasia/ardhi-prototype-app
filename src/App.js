@@ -21,8 +21,8 @@ function App() {
   // User Login info
   const database = [
     {
-      username: "user1",
-      password: "pass1"
+      username: "Baz",
+      password: "Baz"
     },
     {
       username: "user2",
