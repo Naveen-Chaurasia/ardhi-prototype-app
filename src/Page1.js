@@ -54,6 +54,8 @@ console.log("*********************");
   return (
     <div className="app">
         <img src="logo.png" height="100px" width="100px" />
+
+        <div9 className="page1title"><b><u>CARBON CAFE</u></b></div9>
        
     <div className="page1_image" id="pi"> 
                             <div5 className="imageandbutton">
