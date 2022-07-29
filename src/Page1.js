@@ -32,8 +32,8 @@ function Page1() {
  {
     setIsClicked(true);
     console.log("^^^^^^^^^^^^^^^^^");
-    navigate('/Page3');
-    //window.location.href ="https://naveen.budibase.app/app_dev_naveen_77d34a3d02ab4aa2889411486d714cee#/home";
+   // navigate('/Page3');
+    window.location.href ="https://naveen.budibase.app/app/ardhi_lca#/loginpage";
   // window.location.href = "http://localhost:3000/";
   //window.location.href = "https://naveen.budibase.app/app/ardhi_lca#/loginpage";
   //  window.location.href = "https://bloom.neo4j.io/index.html?connectURL=neo4j%2Bs%3A%2F%2F6799f560.databases.neo4j.io&_ga=2.105062592.230755171.1655092750-1401971628.1655092750";
